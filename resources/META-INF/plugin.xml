@@ -1,17 +1,15 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.maxvandelaar.dencrypt</id>
+  <name>Dencrypt</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="max.vandelaar@me.com" url="https://www.maxvandelaar.com">Max van de Laar</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Dencrypt is an IntelliJ IDEA plugin that can encrypt/decrypt text in the editor. When working on a project, sometimes its hard to ensure sensitive data does not end up as plain text in git. This plugin gives you the ability to encrypt/decrypt text inside the IntelliJ IDEA editor.
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      First Release
     ]]>
   </change-notes>
 
@@ -34,14 +32,6 @@
       <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="EditorPasteSimple"/>
       <keyboard-shortcut keymap="$default" first-keystroke="meta alt E"/>
     </action>
-    <!--<action id="com.maxvandelaar.encrypt.Encrypt" class="com.maxvandelaar.encrypt.Encrypt" text="Encrypt">-->
-      <!--<add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="EditorPasteSimple"/>-->
-      <!--<keyboard-shortcut keymap="$default" first-keystroke="meta alt E"/>-->
-    <!--</action>-->
-    <!--<action id="com.maxvandelaar.encrypt.Decrypt" class="com.maxvandelaar.encrypt.Decrypt" text="Decrypt">-->
-      <!--<add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="EditorPasteSimple"/>-->
-      <!--<keyboard-shortcut keymap="$default" first-keystroke="meta alt D"/>-->
-    <!--</action>-->
   </actions>
 
 </idea-plugin>
