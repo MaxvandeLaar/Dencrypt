@@ -43,10 +43,8 @@ public class Dencrypt extends AnAction {
 		try {
 			SecretKeySpec skeyspec = new SecretKeySpec(strKey.getBytes(), "Blowfish");
 			Cipher cipher = Cipher.getInstance("Blowfish");
-//			Cipher cipher = Cipher.getInstance("AES/CTR/PKCS5Padding") ;
 			cipher.init(Cipher.ENCRYPT_MODE, skeyspec);
 			byte[] encrypted = cipher.doFinal(strClearText.getBytes("UTF-8"));
-//			strData = new String(encrypted);
 			strData = Base64.encodeBase64String(encrypted);
 
 		} catch (Exception e) {
