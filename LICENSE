@@ -1,11 +1,3 @@
-# Dencrypt
-
-Dencrypt is an IntelliJ IDEA plugin that can encrypt/decrypt text in the editor.
-
-#### Why?
-When working on a project, sometimes its hard to ensure sensitive data does not end up as plain text in git. This plugin gives you the ability to encrypt/decrypt text inside the InteliJ IDEA editor.
-
-#### License
 MIT License
 
 Copyright (c) 2018 Max van de Laar
@@ -26,5 +18,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.  
- 
+SOFTWARE.
